@@ -31,6 +31,8 @@ The first part of the screenshot is my query, and the second part is a portion o
 My team wants to update the computers for certain employees in the Marketing department. To do this, I have to get information on which employee machines to update.The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Marketing department in the East building.
 
 
+![WHERE AND LIKE](https://github.com/Dai05/SQL-Labs/blob/400f28a4ac2140979f81e0a2d8048cc13a0a3e56/where-and-like.png)
+
 The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Marketing department in the East building. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with AND to filter for employees who work in the Marketing department and in the East building. I used LIKE with East% as the pattern to match because the data in the office column represents the East building with the specific office number. The first condition is the department = 'Marketing' portion, which filters for employees in the Marketing department. The second condition is the office LIKE 'East%' portion, which filters for employees in the East building.
 
 # Retrieve employees in Finance or Sales
