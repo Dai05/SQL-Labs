@@ -47,5 +47,7 @@ The first part of the screenshot is my query, and the second part is a portion o
 # Retrieve all employees not in IT
 My team needs to make one more security update on employees who are not in the Information Technology department. To make the update, I first have to get information on these employees.
 
+![WHERE NOT](https://github.com/Dai05/SQL-Labs/blob/052f5035f9c2387b3dea0d3edf465470ad5a0ab5/where-not.png)
+
 The following demonstrates how I created a SQL query to filter for employee machines from employees not in the  Information Technology department.
 The first part of the screenshot is my query, and the second part is a portion of the output. The query returns all employees not in the Information Technology department. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with NOT to filter for employees not in this department.
