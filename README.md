@@ -40,6 +40,7 @@ The machines for employees in the Finance and Sales departments also need to be 
 
 The following code demonstrates how I created a SQL query to filter for employee machines from employees in the Finance or Sales departments.
 
+![WHERE OR](https://github.com/Dai05/SQL-Labs/blob/25ae15a32d808c9adb45a0b8c3c6ece40687dc2e/where-or2.png)
 
 The first part of the screenshot is my query, and the second part is a portion of the output. This query returns all employees in the Finance and Sales departments. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with OR to filter for employees who are in the Finance and Sales departments. I used the OR operator instead of AND because I want all employees who are in either department. The first condition is department = 'Finance', which filters for employees from the Finance department. The second condition is department = 'Sales', which filters for employees from the Sales department.
 
